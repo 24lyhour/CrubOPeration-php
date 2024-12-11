@@ -1,0 +1,136 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+.tr1{
+    background-color: blue;
+    color: #dddddd;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    
+   } 
+.container button{
+    cursor: pointer;
+
+}
+.container a{
+    text-decoration: none;
+    color: #dddddd;
+
+}
+.add{
+    background-color: green;
+    color: #dddddd;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: none;
+
+}
+.delete{
+        background-color: rgb(132, 17, 17);
+        color: #dddddd;
+        padding: 10px 15px;
+        border-radius: 2px;
+        border: none;
+        /* margin-left: -5px; */
+
+}
+.delete:hover{
+    background-color:rgb(101, 29, 29) ;
+    color: #dddddd;
+    transform: scale(0.99) ;
+    transition: ease-in-out ;
+    font-weight: bold;
+}
+.edit{
+    background-color: blue;
+    color: #dddddd;
+    border-radius: 2px;
+    padding: 10px 15px;
+    border: none;
+
+}
+.edit:hover{
+        background-color: rgb(39, 144, 39);
+        color: rgb(255, 255, 255);
+        transform: scale(0.99) ;
+    transition: ease-in-out ;
+    font-weight: bold;
+
+}
+.add:hover{
+    background-color: blue ;
+    color: #dddddd;
+    transform: scale(0.99) ;
+    transition: ease-in-out ;
+    font-weight: bold;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
+    /* list style ADD  and Edid*/
+
+
+    .contact{
+      margin:0 auto ;
+      width: 1300px;
+    }
+  
+
+    .center{
+
+            justify-content: center;
+            display:grid;
+            margin-top: 5rem;          
+    }
+    .int{
+        padding: 20px;
+        margin-top: 10px;
+        height: 40px;
+        width: 500px;
+        font-size: 20px;
+        border-radius: 2px;
+
+    }
+    .btn{
+        margin-top: 10px;
+        width: 500px;
+        height: 40px;
+        font-size: 20px;
+        background-color: blue;
+        color: aliceblue;
+        border-radius: 2px;
+        border: none;
+    }
+    .btn:hover{
+        background-color: green;
+        color: #ffffff;
+        transform: scale(0.99) ;
+        transition: ease-in-out ;
+        font-weight: bold;
+        cursor: pointer;
+    }
